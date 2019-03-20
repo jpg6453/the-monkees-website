@@ -16,15 +16,35 @@
 .jumbotron {
     font-family: "Playfair Display", serif;
     font-weight: 700;
+    background-color: transparent;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 
 .jumbotron h1, p {
     text-align: center;
+    color: #fafafa;
     margin-bottom: 10px;
 }
 
+.bg-img-stage {
+    background: url('/assets/images/nainoa-shizuru-80385-unsplash.jpg') no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.lead {
+    font-size: 2.4rem;
+}
+
+/*-------------------------------------------------------------------------contact form*/
+
+.form-control {
+    background-color:  rgba(255, 255, 255, 0.75);
+    border: none;
+} 
 
 
 
