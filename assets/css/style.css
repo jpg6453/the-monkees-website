@@ -10,3 +10,58 @@
   -o-background-size: cover;
   background-size: cover;
 }
+
+/*-------------------------------------------------------------------------Book-Us*/
+
+.jumbotron {
+    font-family: "Playfair Display", serif;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.jumbotron h1, p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------Footer*/
+
+.container-fluid.footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+
+.social-links li a i {
+    width: 48px;
+    height: 48px;
+    padding: 18px 0;
+    margin: 10px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 12px;
+    text-align: center;
+    color: #a9a9a9;
+    background: #808080;
+    transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background-color: #fff;
+}
