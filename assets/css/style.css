@@ -1,7 +1,7 @@
 /*-------------------------------------------------------------------------Carousel*/
 
 .carousel-item {
-  height: 80vh;
+  height: 100vh;
   min-height: 350px;
   margin-top: 60px;
   background: no-repeat center center scroll;
@@ -81,11 +81,23 @@
     margin-top: 40px;
 }
 
+/*-------------------------------------------------------------------------Music Section*/
+
+.bg-video {
+    background-color: #000;
+    margin-top: 50px;
+}
+.vid-wrapper {
+   background-color: #000;
+   width: 100%;
+   height: 600px;
+}
 
 
-
-
-
+.vid-heading {
+    text-align: center;
+    color: #fafafa;
+}
 
 
 
