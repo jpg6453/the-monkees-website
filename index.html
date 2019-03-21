@@ -100,7 +100,7 @@
                 <h3>Anniversary Edition</h3>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 lg-album">
                     <img src="/assets/images/album2.jpg" alt="Greatest Hits" class="img-thumbnail rounded">
                 </div>
                 <div class="col-md-4">
@@ -115,30 +115,30 @@
                 </div>
             </div>
             <div class="container-fluid">
-                <div class="row justify-content-center">
+                <div class="row justify-content-center spot-icon">
                     <div class="col-xs-3 col-md-3">
-                      <img src="/assets/images/spotify.png" alt="Greatest Hits" class="img-fluid rounded">  
+                        <img src="/assets/images/spotify.png" alt="Greatest Hits" class="img-fluid rounded">
                     </div>
                 </div>
                 <div class="row justify-content-center">
-                    <div class=" col-md-3 col-xs-8">
+                    <div class="col-md-3 col-xs-8">
                         <a href="" target="_blank">
-                            <img src="/assets/images/album-def.jpg" alt="Greatest Hits" class="img-fluid rounded">
+                            <img src="assets/images/album-def.jpg" alt="Greatest Hits" class="img-fluid rounded">
                             </a>
                     </div>
-                    <div class=" col-md-3 col-xs-8">
+                    <div class="col-md-3 col-xs-8">
                         <a href="https://open.spotify.com/album/05jMK1VY8Ua6yRIFXalP3F" target="_blank">
-                            <img src="/assets/images/album-50.jpg" alt="Greatest Hits" class="img-fluid rounded">
+                            <img src="assets/images/album-50.jpg" alt="Greatest Hits" class="img-fluid rounded">
                             </a>
                     </div>
-                    <div class=" col-md-3 col-xs-8">
+                    <div class="col-md-3 col-xs-8">
                         <a href="https://open.spotify.com/album/3WzJHiv489Wb9So4K7csLy" target="_blank">
-                            <img src="/assets/images/album-xmas.jpg" alt="Greatest Hits" class="img-fluid rounded">
+                            <img src="assets/images/album-xmas.jpg" alt="Greatest Hits" class="img-fluid rounded">
                             </a>
                     </div>
-                    <div class=" col-md-3 col-xs-8">
+                    <div class="col-md-3 col-xs-8">
                         <a href="https://open.spotify.com/album/0YoVLoHDgFdeRfVxCJWjLq?si=8cCKJKNWS4O6UYIfdMW3ag" target="_blank">
-                            <img src="/assets/images/themonkees.jpg" alt="Greatest Hits" class="img-fluid rounded">
+                            <img src="assets/images/themonkees.jpg" alt="Greatest Hits" class="img-fluid rounded">
                             </a>
                     </div>
                 </div>
@@ -146,20 +146,77 @@
     </section>
 
     <!--Video-->
-    <section>
-        <div class="container-fluid">
-            <div class="row embed-responsive-item">
-                <div class="col-xs-4 col-md-4">
-                    <h1 class="vid-heading">Watch</h1>
-                        <video class="sleepy" width="600" height="400" controls poster="assets/images/cover3.jpg">
-                        <source src="assets/video/TheMonkees.mp4" type="video/mp4">
+
+    <div class="container vid">
+        <div class="row">
+            <div class="col-xs-4 col-md-4">
+                <h1 class="vid-heading">Watch</h1>
+                <video class="sleepy" width="600" height="400" controls poster="assets/images/cover3.jpg">
+                    <source src="assets/video/TheMonkees.mp4" type="video/mp4">
                         Your browser does not support the video tag.
-                        </video>
-                </div>
+                </video>
             </div>
         </div>
-    </section>
+    </div>
 
+    <!--Tour Dates-->
+    <div class="container tour-container">
+        <div class="row">
+            <div class="col-md-6">
+                <table class="table">
+                    <thead class="tour-dates">
+                        <tr>
+                            <th scope="col">Date</th>
+                            <th scope="col">Venue</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">8 June</th>
+                            <td>Isaac Theatre Royal, Christcurch, New Zealand</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9 June</th>
+                            <td>Auckland Town Hall, Auckland, New Zealand</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10 June</th>
+                            <td>Michael Fowler Centre, Wellington, New Zealand</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12 June</th>
+                            <td>QPAC, Brisbane, Australia</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15 June</th>
+                            <td>Palais Theatre, Melbourne, Australia</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16 June</th>
+                            <td>Astor Theatre, Perth, Australia</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">18 June</th>
+                            <td>Sydney Opera House, Sydney, Australia</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <img src="assets/images/remi-jacquaint-518089-unsplash.jpg" alt="Open Road" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    
+    <!--Get Tickets Btn-->
+    
+    <div>
+        <a target="_blank" href="https://www.ticketmaster.com/the-monkees-tickets/artist/735678" aria-hidden="true">
+        <span class="sr-only">Get Tickets</span>
+        <button type="button" class="btn btn-primary btn-lg btn-block">Get Tickets</button>
+        </a>
+    </div>
+    
     <!--Footer-->
 
     <footer class="container-fluid footer">

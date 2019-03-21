@@ -99,6 +99,32 @@
     color: #fafafa;
 }
 
+.sleepy {
+    text-align: center;
+}
+
+.spot-icon {
+    margin-bottom: 30px;
+}
+
+.lg-album {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+/*-------------------------------------------------------------------------Tour*/
+
+.tour-container {
+    background-color: blue;
+}
+.tour-dates {
+    color: #fafafa;
+}
+
+
+
+
+
 
 
 /*-------------------------------------------------------------------------Footer*/
@@ -119,8 +145,8 @@
     font-size: 24px;
     line-height: 12px;
     text-align: center;
-    color: #a9a9a9;
-    background: #808080;
+    color: #808080;
+    background: #a9a9a9;
     transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
@@ -128,5 +154,5 @@
 }
 
 .social-links li a i:hover {
-    background-color: #fff;
+    background-color: #fafafa;
 }
