@@ -115,10 +115,37 @@
 /*-------------------------------------------------------------------------Tour*/
 
 .tour-container {
-    background-color: blue;
+    background-color: #696969;
+    margin-top: 2rem;
+    padding-top: 4rem;
+
 }
-.tour-dates {
+
+.heading-tour {
     color: #fafafa;
+    margin-bottom: 3rem;
+    font-family: "Playfair Display", serif;
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+
+.tour-heading {
+    color: #fafafa;
+    border: none;
+}
+.dates {
+    color: #fafafa;
+}
+
+blockquote {
+     color: #fafafa;
+}
+
+.bq-heading {
+    color:  #fafafa;
 }
 
 
