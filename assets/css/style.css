@@ -93,6 +93,9 @@
    height: 600px;
 }
 
+video {
+    text-align: center;
+}
 
 .vid-heading {
     text-align: center;
@@ -122,35 +125,57 @@
 }
 
 .heading-tour {
-    color: #fafafa;
+    color: #000;
     margin-bottom: 3rem;
     font-family: "Playfair Display", serif;
-    font-size: 4rem;
-    font-weight: 500;
+    font-size: 5rem;
+    letter-spacing: 3px;
+    font-weight: 600;
     text-align: center;
 }
 
+.tr-quote {
+    color: #000;
+    text-align: left;
+    padding: 15px;
+    display: inline-block;
+}
+
+.blockquote-footer {
+    text-align: right;
+}
+
+aside {
+    display:inline-block;
+}
 
 
 .tour-heading {
-    color: #fafafa;
+    color: #000;
     border: none;
+    text-align: center;
 }
 .dates {
-    color: #fafafa;
-}
-
-blockquote {
-     color: #fafafa;
+    color: #000;
+    text-align: center;
 }
 
 .bq-heading {
-    color:  #fafafa;
+    font-family: "Roboto Slab";
+    color:  #000;
+    margin-bottom: 3rem;
 }
 
+.tour-dates {
+    display: block;
+}
 
+/*------------------------------------------------------------------------- Global Margin & Padding*/
 
-
+.row .container.container-fluid {
+    margin: 0;
+    padding: 0;
+}
 
 
 
