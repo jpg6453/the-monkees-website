@@ -49,13 +49,11 @@
 /*-------------------------------------------------------------------------About*/
 
 .bg-img-guitar {
-    background: url('/assets/images/david-rangel-569394-unsplash.jpg') no-repeat fixed center;
+    background: url('../assets/images/david-rangel-569394-unsplash.jpg') no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 400;
 }
 
 .card-img-top.img-fluid {
