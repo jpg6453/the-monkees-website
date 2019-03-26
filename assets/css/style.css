@@ -28,7 +28,7 @@
 }
 
 .bg-img-stage {
-    background: url('.../assets/images/nainoa-shizuru-80385-unsplash.jpg') no-repeat fixed center;
+    background: url('../assets/images/nainoa-shizuru-80385-unsplash.jpg') no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
