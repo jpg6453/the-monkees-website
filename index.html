@@ -32,10 +32,10 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto text-uppercase">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Tour</a>
@@ -95,69 +95,88 @@
 
     <!--END Carousel-->
 
-    <!--START Music Section-->
+    <!--START Music Play Native-->
 
     <section>
         <div class="container">
             <div>
-                <h1 class=>Coming Soon</h1>
+                <h1 class="music-heading">Coming Soon</h1>
                 <h3>Anniversary Edition</h3>
             </div>
-            <div class="row">
-                <div class="col-md-4 lg-album">
+            <div class="row justify-content-center lg-album">
+                <div class="col-12 col-md-4">
                     <img src="/assets/images/album2.jpg" alt="Greatest Hits" class="img-thumbnail rounded">
                 </div>
-                <div class="col-md-4">
-                    <ul class="tracks">
-                        <ol>
-                            <li>Last Train to Clarksville</li><audio src="assets/audio/Clarksville.mp3" controls></audio>
-                            <li>I'm a Believer</li><audio src="assets/audio/ImABeliever.mp3" controls></audio>
-                            <li>Steppin Stone</li><audio src="assets/audio/SteppingStone.mp3" controls></audio>
-                            <li>Daydream Believer</li><audio src="assets/audio/DaydreamBeliever.mp3" controls></audio>
-                        </ol>
-                    </ul>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row justify-content-center spot-icon">
-                    <div class="col-xs-3 col-md-3">
-                        <img src="/assets/images/spotify.png" alt="Greatest Hits" class="img-fluid rounded">
+                <div class="col-12 col-md-7 offset-md-1">
+                    <div class="card">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Last Train to Clarksville</li>
+                                <audio src="assets/audio/Clarksville.mp3" controls></audio>
+                            <li class="list-group-item">I'm a Believer </li>
+                                <audio src="assets/audio/ImABeliever.mp3" controls></audio>
+                            <li class="list-group-item">Steppin Stone</li>
+                                <audio src="assets/audio/SteppingStone.mp3" controls></audio>
+                            <li class="list-group-item">Daydream Believer</li>
+                                <audio src="assets/audio/DaydreamBeliever.mp3" controls></audio>
+                        </ul>
                     </div>
                 </div>
-                <div class="row justify-content-center">
-                    <div class="col-md-3 col-xs-8">
-                        <a href="" target="_blank">
+            </div>
+        </div>
+
+    <!--END Music Play Native-->
+
+
+    <!--START Music Play Spotify-->
+    
+        <div class="container">
+            <div class="row justify-content-center spot-icon">
+                <div class="col-6 col-md-3">
+                    <img src="/assets/images/spotify.png" alt="Greatest Hits" class="img-fluid rounded">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 col-md-3">
+                    <a href="" target="_blank">
                             <img src="assets/images/album-def.jpg" alt="Greatest Hits" class="img-fluid rounded">
                         </a>
-                    </div>
-                    <div class="col-md-3 col-xs-8">
-                        <a href="https://open.spotify.com/album/05jMK1VY8Ua6yRIFXalP3F" target="_blank">
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="https://open.spotify.com/album/05jMK1VY8Ua6yRIFXalP3F" target="_blank">
                             <img src="assets/images/album-50.jpg" alt="Greatest Hits" class="img-fluid rounded">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-8">
-                        <a href="https://open.spotify.com/album/3WzJHiv489Wb9So4K7csLy" target="_blank">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="https://open.spotify.com/album/3WzJHiv489Wb9So4K7csLy" target="_blank">
                             <img src="assets/images/album-xmas.jpg" alt="Greatest Hits" class="img-fluid rounded">
-                        </a>
-                    </div>
-                    <div class="col-md-3 col-xs-8">
-                        <a href="https://open.spotify.com/album/0YoVLoHDgFdeRfVxCJWjLq?si=8cCKJKNWS4O6UYIfdMW3ag" target="_blank">
+                    </a>
+                </div>
+                <div class="col-6 col-md-3">
+                    <a href="https://open.spotify.com/album/0YoVLoHDgFdeRfVxCJWjLq?si=8cCKJKNWS4O6UYIfdMW3ag" target="_blank">
                             <img src="assets/images/themonkees.jpg" alt="Greatest Hits" class="img-fluid rounded">
-                        </a>
-                    </div>
+                    </a>
                 </div>
             </div>
+        </div>
     </section>
 
-    <!--END Music Section-->
+    <!--END Music Play Spotify-->
 
     <!--START Video Section-->
     <section>
-
-        <div class="responsive-video mx-auto">
-            <video class="responsive-video mx-auto" width="600" height="400" controls poster="assets/images/cover3.jpg">
-            <source src="assets/video/TheMonkees.mp4" type="video/mp4">Your browser does not support the video tag</video>
+        <div class="container-fluid bg-vid">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <h1>Watch</h1>
+                    <h3>Good times around the piano. Check out the flares!</h3>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <video width="100%" controls poster="assets/images/daydream.jpeg">
+                    <source src="assets/video/TheMonkees.mp4" type="video/mp4">Your browser does not support the video tag</video>
+                </div>
+            </div>
         </div>
+
     </section>
 
     <!--END Video Section-->

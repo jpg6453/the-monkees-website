@@ -82,38 +82,48 @@
 }
 
 /*-------------------------------------------------------------------------Music Section*/
-
-.bg-video {
-    background-color: #000;
-    margin-top: 50px;
-}
-.vid-wrapper {
-   background-color: #000;
-   width: 100%;
-   height: 600px;
+.music-heading {
+    margin-top: 2rem;
 }
 
-video {
-    text-align: center;
-}
-
-.vid-heading {
-    text-align: center;
-    color: #fafafa;
-}
-
-.sleepy {
-    text-align: center;
-}
 
 .spot-icon {
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .lg-album {
     margin-bottom: 30px;
     margin-top: 30px;
 }
+
+audio {
+    width: 220px;
+    height: 1.8rem;
+    text-align: center;
+}
+
+.list-group {
+    margin-top: 2rem;
+    
+}
+
+.list-group-item {
+    color: #000;
+    border: none;
+}
+
+
+/*-------------------------------------------------------------------------Video Section*/
+
+.bg-vid {
+    background-color: #696969;
+    margin: 5rem 0;
+    padding: 2rem; 
+    
+}
+
+
 
 /*-------------------------------------------------------------------------Tour*/
 
@@ -172,10 +182,7 @@ aside {
 
 /*------------------------------------------------------------------------- Global Margin & Padding*/
 
-.row .container.container-fluid {
-    margin: 0;
-    padding: 0;
-}
+
 
 
 
