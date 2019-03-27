@@ -7,13 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
 
     <title>The Monkees</title>
 </head>
 
-<body class="bg-img-guitar">
+<body>
     <!--Navigation-->
     <nav class="navbar navbar-expand-md bg-dark navbar-dark fixed-top bg-dark">
 
@@ -54,58 +55,101 @@
         </div>
     </nav>
 
+
     <!--Jumbotron-->
-    <div class="jumbotron jumbotron-fluid">
+    <header class="gallery">
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="display-2 heading-gallery">Gallery</h1>
+                <p class="lead">Some of our Favourites</p>
+                <hr>
+            </div>
+        </div>
+    </header>
+
+
+    <!--START Gallery Section-->
+
+    <main>
         <div class="container">
-            <h1 class="display-2">Hey, Hey We're the Monkees!</h1>
-            <p class="lead">People say we monkey around...</p>
+            <div class="row center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/rte.jpg" data-fancybox="gallery" data-caption="1">
+                            <img class="img-fluid" src="assets/images/rte.jpg" alt="daydream" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/rolling.jpg" data-fancybox="gallery" data-caption="2">
+                            <img class="img-fluid" src="assets/images/rolling.jpg" alt="stage" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/the-Monkees-2016.jpg" data-fancybox="gallery" data-caption="3">
+                            <img class="img-fluid" src="assets/images/the-Monkees-2016.jpg" alt="guitar" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/monkees.jpg" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="assets/images/monkees.jpg" alt="#" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/bbc.jpg" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="assets/images/bbc.jpg" alt="#" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/usatday.JPG" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="assets/images/usatday.JPG" alt="#" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row center">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/smooth.jpeg" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="assets/images/smooth.jpeg" alt="#" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="/assets/images/wgn.png" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="/assets/images/wgn.png" alt="#" >
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card card-img-top">
+                        <a href="assets/images/xmas.jpg" data-fancybox="gallery" data-caption="#">
+                            <img class="img-fluid" src="assets/images/xmas.jpg" alt="#" >
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
 
 
-    <!--cards-->
 
-    <div class="container">
-        <div class="row center">
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/dj.jpg" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">Davy Jones</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/md.jpg" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">Micky Dolenz</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/pt.jpg" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">Peter Tork</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-                <div class="card">
-                    <img src="assets/images/mn.jpg" class="card-img-top img-fluid">
-                    <div class="card-body">
-                        <h5 class="card-title">Michael Nesmith</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+    </main>
+
+
+
     <!--Footer-->
 
     <footer class="container-fluid footer">
@@ -141,6 +185,7 @@
     <!--js links-->
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
