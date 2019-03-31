@@ -14,41 +14,114 @@
   background-size: cover;
 }
 
-/*-------------------------------------------------------------------------Book-Us*/
-
-.jumbotron {
-    font-family: "Playfair Display", serif;
-    font-weight: 700;
+.jumbotron{
     background-color: transparent;
-    margin-top: 50px;
-    margin-bottom: 20px;
+    margin-top: 3rem;
+    margin-bottom: 0;
 }
 
+/*-------------------------------------------------------------------------Book-Us*/
+
+.book-heading {
+    color: #fafafa;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    
+}
+
+.book-sub {
+    color: #fafafa;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.book-instruct {
+    color: #fafafa;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+
+
 .bg-img-stage {
-    background: url('../../assets/images/nainoa-shizuru-80385-unsplash.jpg') no-repeat fixed center;
+    background: url('../../assets/images/fireworks.jpg') no-repeat fixed right;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+label {
+    color: #fafafa;
 }
 
 
 /*-------------------------------------------------------------------------contact form*/
 
 .form-control {
-    background-color:  rgba(255, 255, 255, 0.75);
+    background-color:  rgba(255, 255, 255, .75);
     border: none;
 } 
 
+.contact {
+    float: right;
+}
+
 /*-------------------------------------------------------------------------About*/
 
+.about-jumbo {
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.about-heading {
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+   
+    
+}
+
+.about-sub {
+    color: #fff;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
 .bg-img-guitar {
-    background: url('../../assets/images/david-rangel-569394-unsplash.jpg') no-repeat fixed center;
+    background: url('../../assets/images/speaker.jpg') no-repeat fixed left;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.35);
 }
 
 .card-img-top.img-fluid {
@@ -56,23 +129,26 @@
     
 }
 
-.card {
+.about-card {
     border: none;
-    background-color: rgba(255, 255, 255, 0.25);
-    color: #fafafa;
-    margin-bottom: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.45);
+    margin-bottom: 1rem;
+}
+
+.about-card-title {
+    font-family: "Source Sans Pro", sans-serif;
+    letter-spacing: 1px;
 }
 
 .card-text:last-child {
-       text-align: left;
+    text-align: left;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 200;
 }
 
-.about-heading {
-    text-align: center;
-    color: #ffffff;
-    margin-bottom: 40px;
-    margin-top: 40px;
-}
+
 
 /*-------------------------------------------------------------------------Music Section*/
 .music-heading {
@@ -203,6 +279,7 @@ aside {
 hr {
     border-top: 1px solid;
     color: #fff;
+    margin-top:2rem;
 }
 
 .bg-img-gallery {
