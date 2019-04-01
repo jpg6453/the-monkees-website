@@ -108,22 +108,14 @@ label {
     margin-bottom: 1.5rem;
 }
 
-.bg-img-guitar {
+.bg-img-speaker {
+    background-color: #525252;
     background: url('../../assets/images/speaker.jpg') no-repeat fixed center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     
-}
-
-.opaque-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .card-img-top.img-fluid {
