@@ -4,16 +4,16 @@
 /*-------------------------------------------------------------------------Carousel*/
 
 .carousel-item {
-  height: 50rem;
-  margin-top: 3rem;
-  background: no-repeat center center scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    height: 40rem;
+    margin-top: 5rem;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: transparent;
     margin-top: 3rem;
     margin-bottom: 0;
@@ -30,7 +30,7 @@
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    
+
 }
 
 .book-sub {
@@ -69,9 +69,9 @@ label {
 /*-------------------------------------------------------------------------contact form*/
 
 .form-control {
-    background-color:  rgba(255, 255, 255, .75);
+    background-color: rgba(255, 255, 255, .75);
     border: none;
-} 
+}
 
 .contact {
     float: right;
@@ -95,8 +95,8 @@ label {
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-   
-    
+
+
 }
 
 .about-sub {
@@ -115,12 +115,12 @@ label {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 
 .card-img-top.img-fluid {
     height: 220px;
-    
+
 }
 
 .about-card {
@@ -147,19 +147,52 @@ label {
 
 
 /*-------------------------------------------------------------------------Music Section*/
+
 .music-heading {
-    margin-top: 2rem;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.music-sub {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.bg-music {
+    background-color: #b3ecff;
+}
+
+.audio-card {
+    background-color: transparent;
+    border: none;
+    padding: 1.5rem;
 }
 
 
 .spot-icon {
-    margin-bottom: 30px;
+    margin-bottom: 2rem;
     text-align: center;
 }
 
 .lg-album {
-    margin-bottom: 30px;
-    margin-top: 30px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.greatest {
+    width: 50%;
+    border: none;
+    margin-top: 1.5rem;
+    text-align: center;
 }
 
 audio {
@@ -170,22 +203,50 @@ audio {
 
 .list-group {
     margin-top: 2rem;
-    
+    background-color: transparent;
 }
 
 .list-group-item {
-    color: #000;
     border: none;
+    background-color: transparent;
+
+
 }
 
 
 /*-------------------------------------------------------------------------Video Section*/
 
 .bg-vid {
-    background-color: #696969;
+    background-color: #525252;
     margin: 5rem 0;
-    padding: 2rem; 
+    padding: 2rem;
+
+}
+
+.vid-heading {
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color:#fff;
+    margin-bottom: 1rem;
     
+    
+}
+
+.vid-sub {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 2px;
+    color:#fff;
+    margin-bottom:1.5rem;
+   
+}
+
+.vid-heads {
+    text-align: left;
+    padding-left: 2rem;
 }
 
 
@@ -220,16 +281,13 @@ audio {
     text-align: right;
 }
 
-aside {
-    display:inline-block;
-}
-
 
 .tour-heading {
     color: #000;
     border: none;
     text-align: center;
 }
+
 .dates {
     color: #000;
     text-align: center;
@@ -237,7 +295,7 @@ aside {
 
 .bq-heading {
     font-family: "Roboto Slab";
-    color:  #000;
+    color: #000;
     margin-bottom: 3rem;
 }
 
@@ -256,7 +314,7 @@ aside {
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
-    
+
 }
 
 .gallery-sub {
@@ -272,14 +330,14 @@ aside {
 hr {
     border-top: 1px solid;
     color: #fff;
-    margin-top:2rem;
+    margin-top: 2rem;
 }
 
 .gallery-card {
     margin-bottom: 2rem;
     border: none;
 }
-    
+
 .bg-img-gallery {
     background-color: #525252;
     background: url('../../assets/images/space.jpg') no-repeat fixed center;
@@ -287,7 +345,7 @@ hr {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
+
 }
 
 
@@ -299,27 +357,25 @@ hr {
 
 /*------------------------------------------------------------------------- Global Margin & Padding*/
 
-
-
-
-
 /*-------------------------------------------------------------------------Footer*/
 
+html {
+    height: 100%;
 
-
-html { 
-    height: 100%; 
-    
 }
+
 body {
-    min-height:100%; 
-    position:relative; 
+    min-height: 100%;
+    position: relative;
     padding-bottom: 8rem;
 }
-.footer { 
-    position: absolute; 
-    left: 0 ; right: 0; bottom: 0; 
-    height: 8rem; 
+
+.footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 8rem;
 }
 
 
