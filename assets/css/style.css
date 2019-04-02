@@ -218,7 +218,6 @@ audio {
 
 .bg-vid {
     background-color: #525252;
-    margin: 5rem 0;
     padding: 2rem;
 
 }
@@ -252,6 +251,10 @@ audio {
 
 
 /*-------------------------------------------------------------------------Tour*/
+.tour-section {
+    background-color: #e6ffcc 
+}
+
 
 .tour-container {
     background-color: #696969;
@@ -262,6 +265,7 @@ audio {
 
 .tour-heading {
     color: #000;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     font-family: "Playfair Display", serif;
     font-size: 3.5rem;
@@ -287,6 +291,7 @@ audio {
     color: #000;
     border: none;
     text-align: center;
+    
 }
 
 .dates {
@@ -299,8 +304,8 @@ audio {
 
 .tour-sub {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 2rem;
+    font-weight: 400;
     letter-spacing: 1px;
     color: #000;
     margin-bottom: 2rem;
@@ -308,6 +313,7 @@ audio {
 
 .tour-card {
     border: none;
+    background-color: #ffffe6;
 }
 
 
@@ -420,6 +426,7 @@ body {
     font-size: 24px;
     line-height: 12px;
     text-align: center;
+    vertical-align: middle;
     color: #808080;
     background: #a9a9a9;
     transition: all 0.3s ease-in-out;
