@@ -228,10 +228,10 @@ audio {
     font-size: 3.5rem;
     font-weight: 400;
     letter-spacing: 2px;
-    color:#fff;
+    color: #fff;
     margin-bottom: 1rem;
-    
-    
+
+
 }
 
 .vid-sub {
@@ -239,9 +239,9 @@ audio {
     font-size: 1.5rem;
     font-weight: 100;
     letter-spacing: 2px;
-    color:#fff;
-    margin-bottom:1.5rem;
-   
+    color: #fff;
+    margin-bottom: 1.5rem;
+
 }
 
 .vid-heads {
@@ -255,18 +255,18 @@ audio {
 
 .tour-container {
     background-color: #696969;
-    margin-top: 2rem;
+    margin-top: 1rem;
     padding-top: 4rem;
 
 }
 
-.heading-tour {
+.tour-heading {
     color: #000;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
     font-family: "Playfair Display", serif;
-    font-size: 5rem;
-    letter-spacing: 3px;
-    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: 400;
     text-align: center;
 }
 
@@ -277,12 +277,13 @@ audio {
     display: inline-block;
 }
 
-.blockquote-footer {
-    text-align: right;
-}
 
 
-.tour-heading {
+
+.tour-head {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
     color: #000;
     border: none;
     text-align: center;
@@ -291,16 +292,46 @@ audio {
 .dates {
     color: #000;
     text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
 }
 
-.bq-heading {
-    font-family: "Roboto Slab";
+.tour-sub {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 1px;
     color: #000;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
+
+.tour-card {
+    border: none;
+}
+
 
 .tour-dates {
     display: block;
+}
+
+.tickets-button {
+    width: 100%;
+}
+
+.blockquote {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000;
+    margin-top: 2rem;
+}
+
+.blockquote-footer {
+    text-align: right;
+
+
 }
 
 /*-------------------------------------------------------------------------Gallery*/
