@@ -155,12 +155,12 @@ label {
 
 .music-heading {
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
-    font-weight: 400;
+    font-size: 4rem;
+    font-weight: 500;
     text-align: center;
     letter-spacing: 2px;
-    padding-top: 3rem;
-    margin-bottom: 4rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .music-sub {
@@ -172,6 +172,10 @@ label {
     margin-bottom: 1.5rem;
 }
 
+.album-card {
+    background-color: transparent;
+    border: none;
+}
 
 .music-card {
     background-color: transparent;
@@ -180,27 +184,72 @@ label {
 }
 
 
-.spot-icon {
-    margin-bottom: 2rem;
-    text-align: center;
-    vertical-align: bottom;
+.spot-logo {
+    width: 11rem;
+    height: 4rem;
 }
 
 .lg-album {
-    padding-top: 2rem;
+   padding-top: 1.5rem;
 }
 
-.greatest {
-    width: 50%;
-    border: none;
+.album-title {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.album-sub {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.album-credit {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.list-group-item {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    
+}
+
+.album-notes-head {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: 500;
     margin-top: 1.5rem;
-    text-align: center;
+}
+
+.album-notes {
+    color: #000;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 audio {
-    width: 220px;
-    height: 1.8rem;
+    width: 300px;
+    height: 1.2rem;
     text-align: center;
+    color: transparent;
+    
+}
+
+.controls {
+    background-color: #000;
 }
 
 .list-group {
@@ -210,8 +259,6 @@ audio {
 .list-group-item {
     border: none;
     background-color: transparent;
-
-
 }
 
 
