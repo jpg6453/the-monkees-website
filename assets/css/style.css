@@ -148,6 +148,11 @@ label {
 
 /*-------------------------------------------------------------------------Music Section*/
 
+.music-section {
+    background-color: #b3ecff;
+    padding-bottom: 4rem;
+}
+
 .music-heading {
     font-family: "Playfair Display", serif;
     font-size: 3.5rem;
@@ -167,25 +172,22 @@ label {
     margin-bottom: 1.5rem;
 }
 
-.bg-music {
-    background-color: #b3ecff;
-}
 
-.audio-card {
+.music-card {
     background-color: transparent;
     border: none;
-    padding: 1.5rem;
+    
 }
 
 
 .spot-icon {
     margin-bottom: 2rem;
     text-align: center;
+    vertical-align: bottom;
 }
 
 .lg-album {
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    padding-top: 2rem;
 }
 
 .greatest {
@@ -202,7 +204,6 @@ audio {
 }
 
 .list-group {
-    margin-top: 2rem;
     background-color: transparent;
 }
 
@@ -219,7 +220,6 @@ audio {
 .bg-vid {
     background-color: #525252;
     padding: 2rem;
-
 }
 
 .vid-heading {
@@ -404,7 +404,7 @@ html {
 body {
     min-height: 100%;
     position: relative;
-    padding-bottom: 8rem;
+    padding-bottom: 6rem;
 }
 
 .footer {
@@ -412,7 +412,7 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 8rem;
+    height: 6rem;
 }
 
 
@@ -426,7 +426,6 @@ body {
     font-size: 24px;
     line-height: 12px;
     text-align: center;
-    vertical-align: middle;
     color: #808080;
     background: #a9a9a9;
     transition: all 0.3s ease-in-out;
@@ -437,4 +436,5 @@ body {
 
 .social-links li a i:hover {
     background-color: #fafafa;
+    
 }
