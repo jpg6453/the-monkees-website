@@ -393,6 +393,14 @@ audio {
 
 /*-------------------------------------------------------------------------Gallery*/
 
+.gallery-jumbo {
+    background-color: rgba(0, 0, 0, 0.45);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+
 .gallery-heading {
     color: #fff;
     font-family: "Playfair Display", serif;
