@@ -1,7 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
 
+/*-------------------------------------------------------------------------Navbar*/
 
+.navbar-toggler {
+    border: none;
+}
 
+.nav-item {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.btn {
+    font-family: "Source Sans Pro", sans-serif;
+}
 
 /*-------------------------------------------------------------------------Carousel*/
 
@@ -17,7 +31,7 @@
 }
 
 .bg-carousel {
-    background-color: #000;
+    background-color: #2d2d30;
 }
 
 .jumbotron {
@@ -31,9 +45,9 @@
 .book-heading {
     color: #fafafa;
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
@@ -45,6 +59,7 @@
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.75rem;
     font-weight: 300;
+    letter-spacing: 2px;
     margin-bottom: 1.5rem;
     text-align: center;
 }
@@ -54,7 +69,8 @@
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
-    font-weight: 300;
+    letter-spacing: 2px;
+    font-weight: 200;
 }
 
 
@@ -69,7 +85,7 @@
 }
 
 label {
-    color: #fff;
+    color: #fafafa;
 }
 
 
@@ -80,9 +96,6 @@ label {
     border: none;
 }
 
-.contact {
-    float: right;
-}
 
 /*-------------------------------------------------------------------------About*/
 
@@ -94,11 +107,11 @@ label {
 }
 
 .about-heading {
-    color: #fff;
+    color: #fafafa;
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
     text-align: center;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
@@ -107,9 +120,10 @@ label {
 }
 
 .about-sub {
-    color: #fff;
+    color: #fafafa;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 2rem;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
     font-weight: 300;
     text-align: center;
     margin-bottom: 1.5rem;
@@ -156,27 +170,19 @@ label {
 /*-------------------------------------------------------------------------Music Section*/
 
 .music-section {
-    background-color: #b3ecff;
+    background-color: #2d2d30;
     padding-bottom: 4rem;
 }
 
 .music-heading {
     font-family: "Playfair Display", serif;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 500;
     text-align: center;
-    letter-spacing: 2px;
+    letter-spacing: 8px;
     padding-top: 2rem;
     margin-bottom: 2rem;
-}
-
-.music-sub {
-    color: #000;
-    font-family: "Source Sans Pro", sans-serif;
-    font-size: 2rem;
-    font-weight: 300;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    color: #d0d0d0;
 }
 
 .album-card {
@@ -192,8 +198,8 @@ label {
 
 
 .spot-logo {
-    width: 11rem;
-    height: 4rem;
+    width: 8rem;
+    height: 3rem;
 }
 
 .lg-album {
@@ -201,50 +207,53 @@ label {
 }
 
 .album-title {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 2rem;
-    letter-spacing: 2px;
-    font-weight: 500;
+    font-size: 1.75rem;
+    letter-spacing: 6px;
+    font-weight: 400;
 }
 
 .album-sub {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    letter-spacing: 1px;
-    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
 }
 
 .album-credit {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 .list-group-item {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
-    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: 400;
     
 }
 
 .album-notes-head {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
     letter-spacing: 2px;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 1.5rem;
 }
 
 .album-notes {
-    color: #000;
+    color: #d0d0d0;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1rem;
-    font-weight: 400;
+    letter-spacing: 1px;
+    font-weight: 200;
 }
 
 audio {
@@ -268,17 +277,17 @@ audio {
 /*-------------------------------------------------------------------------Video Section*/
 
 .bg-vid {
-    background-color: #525252;
+    background-color: #d0d0d0;
     padding-top: 4rem;
     padding-bottom: 4rem;
 }
 
 .vid-heading {
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: #fff;
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: 8px;
+    color: #2d2d30;
     margin-bottom: 1rem;
 
 
@@ -287,9 +296,9 @@ audio {
 .vid-sub {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
-    font-weight: 100;
-    letter-spacing: 1px;
-    color: #fff;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #2d2d30;
     margin-bottom: 1.5rem;
 
 }
@@ -303,30 +312,30 @@ audio {
 
 /*-------------------------------------------------------------------------Tour*/
 .tour-section {
-    background-color: #e6ffcc 
+    background-color: #2d2d30;
 }
 
 
 .tour-container {
-    background-color: #696969;
+    background-color: #d0d0d0;
     margin-top: 1rem;
     padding-top: 4rem;
 
 }
 
 .tour-heading {
-    color: #000;
-    margin-top: 1.5rem;
+    color: #d0d0d0;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
     font-family: "Playfair Display", serif;
-    font-size: 3.5rem;
-    letter-spacing: 2px;
-    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 8px;
+    font-weight: 500;
     text-align: center;
 }
 
 .tr-quote {
-    color: #000;
+    color: #d0d0d0;
     text-align: left;
     padding: 15px;
     display: inline-block;
@@ -339,14 +348,14 @@ audio {
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.5rem;
     font-weight: 300;
-    color: #000;
+    color: #2d2d30;
     border: none;
     text-align: center;
     
 }
 
 .dates {
-    color: #000;
+    color: #2d2d30;
     text-align: center;
     font-family: "Source Sans Pro", sans-serif;
     font-size: 1.2rem;
@@ -355,16 +364,17 @@ audio {
 
 .tour-sub {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 2rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #000;
-    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #d0d0d0;
+    margin-bottom: 3rem;
 }
 
 .tour-card {
     border: none;
-    background-color: #ffffe6;
+    background-color: #d0d0d0;
+    
 }
 
 
@@ -378,15 +388,17 @@ audio {
 
 .blockquote {
     font-family: "Source Sans Pro", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 400;
-    letter-spacing: 1px;
-    color: #000;
+    font-size: 1.2rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: #d0d0d0;
     margin-top: 2rem;
 }
 
 .blockquote-footer {
     text-align: right;
+    color: #fafafa;
+    font-weight: 300;
 
 
 }
@@ -474,6 +486,10 @@ body {
     height: 6rem;
 }
 
+.list-inline {
+    margin-top: 14px;
+}
+
 .social-links li a i {
     width: 48px;
     height: 48px;
@@ -483,16 +499,16 @@ body {
     font-size: 24px;
     line-height: 12px;
     text-align: center;
-    color: #808080;
-    background: #a9a9a9;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
+    color: #2d2d30;
+    background: #d0d0d0;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
-    background-color: #fafafa;
-   
+    background-color: transparent;
+    color: #d0d0d0;
     
 }
