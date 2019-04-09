@@ -40,6 +40,19 @@
     margin-bottom: 0;
 }
 
+.carousel-indicators li {
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.75rem;
+    letter-spacing: 2px;
+    padding-bottom: 0;
+}
+
 /*-------------------------------------------------------------------------Book-Us*/
 
 .book-heading {
