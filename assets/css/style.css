@@ -525,3 +525,11 @@ body {
     color: #d0d0d0;
     
 }
+
+/*-------------------------------------------------------------------------Media Queries*/
+
+@media only screen and (max-width: 768px) {
+    audio {
+    line-height: 2.5rem;
+    }
+}
