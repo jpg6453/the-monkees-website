@@ -531,6 +531,6 @@ body {
 
 @media only screen and (max-width: 992px) {
     audio {
-    line-height: 3rem;
+    height: 54px;
     }
 }
