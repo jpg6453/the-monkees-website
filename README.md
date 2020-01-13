@@ -542,6 +542,12 @@ Book Us Page - [Concert](https://pixabay.com/photos/music-silhouette-concert-peo
 
 Daydream Believer MP4 Video - supplied by Code Institute.
 
+## Acknowledgements
 
+I received inspiration for this project by browsing band websites from other genres/generations (U2.com, www.thekillersmusic.com, thebeatles.com, coldplay.com) and received support and encouragement from my mentor Marantha Ilesanmi.
+
+## Disclaimer
+
+This site was built for educational purposes only.
 
 
