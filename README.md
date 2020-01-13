@@ -174,3 +174,33 @@ This page presents a simple contact form which enables users to fill it out and 
 - Add a Captcha to contact form to eliminate spam
 
 - Investigate and implement how to push down content from behind fixed navbar when navigating homepage sections using navbar links. Section headings are currently hidden by navbar.
+
+## Technologies Used
+
+**Chosen IDE**  - [Cloud9](https://aws.amazon.com/cloud9/)
+
+**Programming languages** – HTML & CSS
+
+### Libraries
+
+[BootstrapCDN](https://www.bootstrapcdn.com)
+
+The website was built following mobile first principles and utilises Bootstrap4 to make all elements responsive across different screen sizes. 
+
+Icons obtained from [Fontawesome](https://www.bootstrapcdn.com/fontawesome/). 
+
+[jQuery](https://jquery.com)
+
+This was used to pull in the necessary Javascript for the responsive navbar and Fancybox image “lightbox” modal. 
+
+[Popper.js](https://popper.js.org)
+
+This library is required for the responsive navbar to function correctly. 
+
+[Fancybox](https://fancyapps.com/fancybox/3/)
+
+This was used on the photos page to enable users to view images as a Mac-style "lightbox", a modal that floats above the webpage. 
+
+[Google Fonts](https://fonts.google.com)
+
+Fonts for headings, sub-headings and body text were styled using Google fonts. Those selected were researched and are deemed to work well together in combination. 
