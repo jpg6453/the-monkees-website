@@ -204,3 +204,206 @@ This was used on the photos page to enable users to view images as a Mac-style "
 [Google Fonts](https://fonts.google.com)
 
 Fonts for headings, sub-headings and body text were styled using Google fonts. Those selected were researched and are deemed to work well together in combination. 
+
+## Testing
+
+Testing user stories outlined in the UX section above.
+
+**1. As a fan, I would like to browse for songs, so that I can play my favourites.**
+
+i. Visit the home page and scroll down to the “Listen” section where there are details of the band’s latest release with 4 clickable sample tracks that are prominently displayed. Songs will be played natively. Verify that each track plays.
+
+ii. Try to navigate to this “Listen” section by clicking the Music link in the nav menu on any page. Confirm that the link works on all pages.
+
+iii. There is clickable Spotify icon which takes users to the Monkees section of the Spotify website in a separate tab. Verify the link works and opens in a separate tab.
+
+**2. As a fan, I would like to watch videos, so that I can see the band perform.**
+
+i. Visit the home page and scroll down to the “Watch” section to the embedded music video. Try to play the video and verify that the controls work.
+
+ii. Try to navigate to this “Watch” section by clicking the Video link in the nav menu on any page. Confirm that the link works on all pages.
+
+
+**3. As a potential fan, I would like to browse for songs, so that I can listen to their back catalogue.**
+
+i. Follow the same test contained in user story 1. above.
+
+**4. As a potential fan, I would like to learn more about the band, so that I can find out about them as people.**
+
+i. Navigate to the about page where 4 cards are displayed which feature a photo and short bio of each band member.
+
+ii. Try to navigate to the about page by clicking the about link in the nav menu on any page. Confirm that the link works on all pages.
+
+**5. As a potential customer, I would like to send in an event request, so that I can book them for a birthday party.**
+
+i. Navigate to the book us page using the highlighted book us link in the nav menu from any page. Confirm the link works on all pages.
+
+ii. Try to fill out the form and click the send call to action button.
+
+iii. Verify there are no error messages.
+
+**6. As a live music lover, I would like to find a list of tour dates, so that I can see them in concert.**
+
+i. Visit the home page and scroll down to the “Tour” section where there are details of the band’s current tour dates. 
+
+ii. Click the Get tickets call to action button and confirm the ticketmaster website launches in a separate tab.
+
+iii. Try to navigate to the “Tour” section by clicking the Tour link in the nav menu on any page. Confirm that the link works on all pages.
+
+**7. As a visitor to the site, I would like to navigate easily, so that I can move around the site and find what I need.**
+
+i. Users can easily find the navbar which is fixed at the top of each page.
+
+ii. The logo in the top left of the navbar takes users back the home page.
+
+**8. As a fan, I would like to browse photos of the band.**
+
+i. Navigate to the photos page using the Photos link in the nav menu from any page. Confirm the link works on all pages.
+
+ii. Click on any image to enter fancy box “lightbox” mode. Use the arrow controls to cycle through the photos.
+
+### Manual Functionality testing of all pages
+
+#### Home Page
+
+**1. Navigation Bar**
+
+i. On desktop, go to the Home page.
+
+ii. Reduce the browser size down to tablet to verify that the navbar is responsive and switches from the expanded, inline menu to burger menu at this screen size.
+
+iii. Verify that the logo alt text (brand logo) appears on hover.
+
+ix. Click on the logo in the top left of the navbar and confirm that it links to the home page.
+
+v. Click on each navigation menu element and confirm that it links to the correct page/section.
+
+vi. Confirm that there is a subtle colour change when hovering over the highlighted book us link in the Nav bar.
+
+vii. Reduce the screen down to small and confirm the burger menu drops down when clicked.
+
+viii. All above functionality and checks carried out on tablet and mobile.
+
+**2. Carousel**
+
+i. On desktop, navigate to home page.
+
+ii. Verify that the carousel is visible, cycles between the 2 images automatically on loading and occupies the full screen width. Check also that the indicators are visible.
+
+iii. Reduce the screen size down to small to confirm that the caption on slider 2 does not appear.
+
+**3. Listen Section**
+
+i. Scroll down to the Listen section and confirm that the text and image layout looks good on all screen sizes.
+
+ii. Reduce the screen size to small to confirm that the right hand column containing the sample  audio tracks wraps under the album artwork.
+
+iii. Play each audio track in turn to verify they play natively.
+
+iv. Click “Listen on Spotify” logo link and confirm it opens in a separate tab.
+
+**4. Watch Section**
+
+i. Scroll down to the Watch section and confirm that the video is visible and occupies the right hand half of the screen, does not autoplay and the poster image is displayed with the controls overlaid.
+
+ii. Play the video and verify that all the controls work.
+
+iii. Reduce the browser size and check that the video position is responsive and looks balanced within the section.
+
+**5. Tour Section**
+
+i. Scroll down to the Tour section and confirm that the tour dates poster is centred and the layout looks good.
+
+ii. Hover over the “Get Tickets” call to action button to check there is a subtle change to the button background colour. 
+
+iii. Click the Get Tickets button to verify that it links to the ticketmaster website and launches in a separate tab.
+
+iv. Verify that the 2 blockquotes appear one underneath the other on smaller screen sizes.
+
+**6. Footer**
+
+i. Check each social media icon in turn and verify that the icon and background colours reverse out on hover.
+
+ii. Click each icon and verify it links to the correct social media site in a separate tab.
+
+iii. Check the responsiveness of the footer across all screen sizes and check that the layout looks good.
+
+**7. Repeat the above on tablet and mobile to ensure responsiveness on all available devices.**
+
+#### About
+
+**1. Navigation**
+
+i. Repeat procedure carried out to test navbar on Home page.
+
+ii. Verify that code in navbar section of each html page is the same.
+
+**2. Cards**
+
+i. Confirm that the cards containing images and bios of the band are laid out in a single row of 4 and the layout looks good.
+
+ii. Reduce the screensize to tablet and confirm that the layout switches to 2 rows of 2 cards.
+
+iii. Change the screensize to small and verify that the layout changes again to a single scrolling column of 4 cards.
+
+**3. Footer**
+
+i. Repeat test procedure carried out to the footer on Home page.
+
+ii. Check that the code in the footer section on the About, Photos & Book Us html pages is the same.
+
+**4. Repeat the above on tablet and mobile to ensure responsiveness on all available devices.**
+
+#### Photos
+
+**1. Navigation**
+
+i. Testing complete, the navbar is the same on all pages.
+
+**2. Gallery**
+
+i. Review html code to check that each image has an alt attribute assigned to facilitate the use of screen readers for visually impaired users. Title attributes were not assigned as it would compromise the look of the photo gallery.
+
+ii. Click on each photo to check that the fancy box “lightbox” mode starts.
+
+iii. With the fancy box modal on screen, cycle through the photos with the forward and back arrows and verify all other controls work properly.
+
+iv. Reduce the browser size to check that the grid of photos is responsive and is well laid out across all devices.
+
+**3. Footer**
+
+i. Testing complete, the footer is the same as the about page.
+
+**4. Repeat the above on tablet and mobile to ensure responsiveness on all available devices.**
+
+#### Book Us
+
+**1. Navigation**
+
+i. Testing complete, the navbar is the same on all pages.
+
+**2. Contact Form**
+
+i. Try to submit the form with all fields empty and confirm that an error message is displayed.
+
+ii. Try to enter text into the phone field and verify that no text or special characters are accepted.
+
+iii. Try to submit the form with an invalid email address and confirm that the relevant error message is displayed that prompts the user to enter the correct format.
+
+iv. Try to submit the form with valid inputs in all fields and verify there is no error message. There will be no success message as this is a front end only project.
+
+v. Resize the browser by increasing and decreasing the width to check that the form is responsive and looks good across all devices.
+
+vi. Verify that there is a subtle colour change to the “send” call to action button on hover.
+
+**3. Footer**
+
+i. Testing complete, the footer is the same as the about page.
+
+**4. Repeat the above on tablet and mobile to ensure responsiveness on all available devices.**
+
+#### Further Testing
+
+i. I tested the website on all devices that I have at my disposal (iMac, Windows laptop, iPad, iPhone 5/6/7/XR) across multiple browsers.
+
+ii. A link to the website was sent to family and friends, particularly those with Android devices, and comments/observations were invited.
