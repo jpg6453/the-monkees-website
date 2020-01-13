@@ -6,7 +6,7 @@ The about page contains a short bio of each band member and the photos page show
 
 The book us page contains a simple form for fans to fill in and book the band for an event. This is a key business goal of the site.
 
-
+The website can be viewed on **GitHub Pages** [here](https://jpg6453.github.io/the-monkees-website/)
 
 
 ## UX
