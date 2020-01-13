@@ -407,3 +407,141 @@ i. Testing complete, the footer is the same as the about page.
 i. I tested the website on all devices that I have at my disposal (iMac, Windows laptop, iPad, iPhone 5/6/7/XR) across multiple browsers.
 
 ii. A link to the website was sent to family and friends, particularly those with Android devices, and comments/observations were invited.
+
+## Deployment
+
+**Hosting On GitHub Pages**
+
+This website was committed to git and pushed to GitHub via the terminal built into the Cloud 9 IDE.
+The project was deployed to GitHub Pages from this GitHub repository by doing the following:
+1.	Log into GitHub.
+2.	From the list of repositories on the left side of the screen, select **jpg6453/the-monkees-website**
+3.	From the toolbar at the top of the page, select Settings.
+4.	Scroll down to GitHub Pages.
+5.	Under Source change the drop down menu from None to Master Branch
+6.	On selecting Master Branch the website is now deployed and the page refreshes.
+7. Scroll back down to the GitHub Pages section to find the link to the deployed site,   Your site is published at https://jpg6453.github.io/the-monkees-website/
+
+At the time of submission there is no difference between the master branch and the deployed version of the project.
+
+**To run locally**
+
+The website can be cloned from GitHub as follows:
+1.	Follow this link to the repo https://github.com/jpg6453/the-monkees-website 
+2.	Click "Clone or download".
+3.	A Clone with HTTPs modal appears on screen, copy the clone URL for the repository https://github.com/jpg6453/the-monkees-website
+4.	Within your chosen IDE launch a terminal session
+5.	Ensure the current working directory is the location where you want the cloned directory to be made. Change this if necessary.
+6.	Type git clone, and then paste the URL copied in Step 3.
+	git clone https://github.com/jpg6453/the-monkees-website
+7.	Press Enter and a clone will be created locally. This could take a few minutes.
+
+
+## Credits
+
+### Content
+	
+**About Page**
+
+Text for each band member bio taken from Wikipedia.
+
+[Davy](https://en.wikipedia.org/wiki/Davy_Jones_(musician))
+
+[Micky](https://en.wikipedia.org/wiki/Micky_Dolenz)
+
+[Peter](https://en.wikipedia.org/wiki/Peter_Tork)
+
+[Michael](https://en.wikipedia.org/wiki/Michael_Nesmith)
+
+### Tour Dates
+
+Dates  taken from [facebook](https://www.facebook.com/TheMonkees/)
+
+Quotes by Micky Dolenz and Mike Nesmith taken from [Eventfinda NZ](https://www.eventfinda.co.nz/news/2018/12/the-monkees-present-the-mike-micky-show-tour-hits-nz-roads-in-june-2019)
+
+### Code 
+
+CSS code to push down the footer when content is shorter than the viewport taken from [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/)
+
+
+### Media
+
+#### Images
+
+**Homepage** 
+
+Logo in Navbar - [Fanart](https://fanart.tv/artist/b8549efe-f4fd-4dc0-8ef1-226e9c400233/monkees-the/?loggedout=true)
+
+**Carousel**
+
+Slide 1 - Band image supplied by **Code Institute.**
+
+Slide2 - Peter Tork tribute. Obtained from [Rolling Stone](https://www.rollingstone.com/music/music-news/peter-tork-monkees-dead-at-77-obituary-797269/)
+
+**Listen Section**
+
+Album Artwork - The Very Best of the Monkees - **Supplied by Code Institute.**
+
+Spotify Logo - [here](https://itslivb.com/podcast/spotify-logo-png-file-spotify-badge-large-png-1280/)
+
+**Watch Section**
+
+Video Poster Image - [Pass the Paisley](https://passthepaisley.com/the-monkees-daydream-believer/)
+
+**Tour Dates Section**
+
+Tour Poster image obtained from [Eventfinda NZ](https://www.eventfinda.co.nz/news/2018/12/the-monkees-present-the-mike-micky-show-tour-hits-nz-roads-in-june-2019)
+
+**About Page** 
+
+Images supplied by **Code Institute**
+
+**Photos Page**
+
+**Row 1 L-R**
+
+1.[RTE](https://www.rte.ie/entertainment/2016/0209/766577-the-monkees-to-reform-with-new-album-and-tour)
+
+2.[Rolling Stone](https://www.rollingstone.com/music/music-features/the-monkees-michael-nesmith-micky-dolenz-on-their-upcoming-duo-tour-630457/)
+
+3.[BGM](https://beardedgentlemenmusic.com/2016/06/24/monkees-good-times-review/)
+
+**Row 2 L-R**
+
+1.Code Institute
+
+2.[CSINDY](https://www.csindy.com/coloradosprings/the-monkees-present-the-mike-and-micky-show-at-paramount-theatre-show-preview/Content?oid=12798435)
+
+3.[USAtoday](https://www.google.com/search?client=safari&rls=en&biw=1920&bih=996&tbm=isch&sa=1&ei=jy3-XMesEvuV1fAP7JS9wAs&q=peter+tork+usa+today&oq=peter+tork+usa+today&gs_l=img.3..35i39.41895.44130..44637...0.0..0.69.621.10......0....1..gws-wiz-img.......0j0i24.OgH5cM3tkuU#imgrc=3yNVctMzkMPIoM:)
+
+**Row 3 L-R**
+
+1. [Grunge](https://www.grunge.com/146172/the-untold-truth-of-the-monkees/)
+2. [WGN](https://www.google.com/search?q=monkees+wgn&client=safari&rls=en&source=lnms&tbm=isch&sa=X&ved=0ahUKEwju6NW92t7iAhU4SxUIHc7cCdQQ_AUIECgB&biw=1324&bih=969#imgrc=1PawYSLJTOELvM:)
+3. [Xmas](http://www.947wls.com/2018/09/21/the-monkees-to-unwrap-christmas-party-next-month/)
+
+**Background Images**
+
+About Page - [Speaker](https://pixabay.com/photos/audio-speaker-astronomy-exploration-1839221/)
+
+Photos Page  - [Space](https://pixabay.com/illustrations/background-space-universe-galaxy-3883181/)
+
+Book Us Page - [Concert](https://pixabay.com/photos/music-silhouette-concert-people-3084876/)
+
+### Audio
+
+**Listen Section**
+
+4 Native Play mp3 audio files (Last Train to Clarksville, I'm A Believer, 'Steppin Stone, Daydream Believer - **supplied by Code Institute**.
+
+**Link to Monkees Content on** [Spotify](https://open.spotify.com/artist/320EPCSEezHt1rtbfwH6Ck)
+
+### Video
+
+**Watch Section**
+
+Daydream Believer MP4 Video - supplied by Code Institute.
+
+
+
+
